@@ -1,0 +1,30 @@
+.body {
+    background-color: beige;
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.content {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.content.complete {
+    text-decoration: line-through;
+}
+
+li {
+    text-align: left;
+}
+
+hr {
+    width: 50%;
+}
