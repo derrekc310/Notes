@@ -1,47 +1,285 @@
 <!DOCTYPE html>
 <html>
-  <head lang="en">
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Things To Do</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body class="body">
-    <h1>End of 2022</h1>
-    <div class="list">
-      <h2>Thursday</h2>
-      <br />
-      <hr />
-      <div class="content">
-        <ul>
-            <li class="bullet">sell MAGFest ticket</li>
-            <li class="bullet">get books for class</li>
-            <li class="bullet">work on screamer app</li>
-            <li class="bullet">work on drum machine</li>
-            <li class="bullet">apply for jobs</li>
-          </ul>
-      </div>
-      <h2>Friday</h2>
-      <br />
-      <hr />
-      <div class="content">
-        <ul>
-          <li class="bullet">do laundry</li>
-          <li class="bullet">apply for jobs</li>
-          <li class="bullet">work on screamer</li>
-        </ul>
-      </div>
-      <h2>Saturday</h2>
-      <br />
-      <hr />
-      <div class="content">
-        <ul>
-          <li class="bullet">code</li>
-          <li class="bullet">new year's 2023 party at Robone's</li>
-        </ul>
-      </div>
+
+<head lang="en">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Things To Do</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="body">
+  <h1 contenteditable="true">Studying</h1>
+  <form id="add-task">
+    <input id="task-form" type="text" placeholder="Add a task..." />
+    <button id="add">add</button>
+  </form>
+  <div class="list">
+    <h2 contenteditable="true">Regular Stuff</h2>
+    <br />
+    <hr />
+    <div class="content">
+      <ul>
+        <li class="bullet">
+          Sell switch
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <li class="bullet">
+          Finish Nick's app
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <li class="bullet">
+          Make a plan to pay verizon
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <li class="bullet">
+          Plan bills
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <li class="bullet">
+          Make a shopping list
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <li class="bullet">
+          Do laundry
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <li class="bullet">
+          Think of furniture and decoration for bedroom/office
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <li class="bullet">
+          Fill out FAFSA
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+      </ul>
     </div>
-    <script src="index.js"></script>
-  </body>
+    <h2 contenteditable="true">Linux</h2>
+    <br />
+    <hr />
+    <div class="content">
+      <ul>
+        <li class="bullet">
+          Orientation Quiz
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <li class="bullet">
+          Cidermill Login
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <li class="bullet">
+          Intro Discussion + 2 Responses
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <h3>Learning Module 1</h3>
+        <li class="bullet">
+          Quiz 1
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <h3>Learning Module 2</h3>
+        <li class="bullet">
+          Quiz 2
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <li class="bullet">
+          Assignment 1
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <h3>Learning Module 3</h3>
+        <li class="bullet">
+          Quiz 3
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <li class="bullet">
+          Assignment 2
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <h3>Learning Module 4</h3>
+        <li class="bullet">
+          Quiz 4
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <li class="bullet">
+          Discussion
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <li class="bullet">
+          Assignment 3
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <h3>Learning Module 5</h3>
+        <li class="bullet">
+          Quiz 5
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <li class="bullet">
+          Assignment 4
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <h3>Learning Module 6</h3>
+        <li class="bullet">
+          Quiz 6
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <li class="bullet">
+          Assignment 5
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <h3>Learning Module 7</h3>
+        <li class="bullet">
+          Quiz 7
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <li class="bullet">
+          Assignment 6
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <h3>Learning Module 8</h3>
+        <li class="bullet">
+          Quiz 8
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <li class="bullet">
+          Assignment 7
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <h3>Learning Module 9</h3>
+        <li class="bullet">
+          Quiz 9
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <li class="bullet">
+          Discussion
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <li class="bullet">
+          Assignment 8
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <h3>Learning Module 10</h3>
+        <li class="bullet">
+          Quiz 10
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <li class="bullet">
+          Assignment 9
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <h3>Learning Module 11</h3>
+        <li class="bullet">
+          Quiz 11
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <li class="bullet">
+          Final Assignment
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <h3>Learning Module 12</h3>
+        <li class="bullet">
+          Quiz 12
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <li class="bullet">
+          Final Assignment
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <h3>Learning Module 13</h3>
+        <li class="bullet">
+          Discussion
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <li class="bullet">
+          Final Assignment
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+        <h3>Learning Module 14</h3>
+        <li class="bullet">
+          Final Assignment
+          <div class="buttons">
+            <button class="edit">edit</button><button class="delete">delete</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
 </html>
