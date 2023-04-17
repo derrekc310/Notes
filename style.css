@@ -75,3 +75,11 @@ hr {
     right: 30%;
     margin-right: 1rem;
 }
+
+.editable:empty:before {
+    content: attr(text-placeholder);
+}
+
+.editable:empty:before {
+    content: attr(heading-placeholder);
+}
